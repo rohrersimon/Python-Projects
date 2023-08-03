@@ -1,4 +1,4 @@
-import sys
+﻿import sys
 
 def decode(flag):
   """Decodes the flag string."""
