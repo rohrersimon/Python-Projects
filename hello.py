@@ -1,10 +1,8 @@
-import cs50
+def main():
+    name = input("What's your name? ")
+    hello(name)
 
-# This is my comment
-name = input("What's your name? ").strip().title()
+def hello(to = "World"):
+    print("hello,", to)
 
-first, last = name.split(" ")
-
-print(f"Hello, {first}")
-
-# Minute 45
+main()

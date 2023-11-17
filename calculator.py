@@ -1,5 +1,10 @@
-x = input("What's x?")
-y = input("What's y?")
+import cs50
 
-z = x+y
-print(z)
+def main():
+    x = int(input("What's x?"))
+    print("x squared is ", square(x))
+
+def square(n):
+    return n ** 2
+
+main()
