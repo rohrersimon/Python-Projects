@@ -1,3 +1,5 @@
+import cs50
+
 # This is my comment
 name = input("What's your name? ")
 
